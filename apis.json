@@ -1,0 +1,37 @@
+{
+    "name": "Vulcand",
+    "description": "<p>Vulcand is a reverse proxy for HTTP API management and microservices. It is inspired by Hystrix. It uses Etcd as a configuration backend, so changes to configuration take effect immediately without restarting the service.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vulcan.png",
+    "tags": [
+        "have api",
+        "proxies",
+        "proxy"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/vulcand\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Vulcand",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/vulcan.png",
+            "humanURL": "https:\/\/www.vulcanproxy.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/vulcand-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "https:\/\/www.vulcanproxy.com\/"
+        }
+    ]
+}
